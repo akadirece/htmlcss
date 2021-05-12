@@ -1,12 +1,55 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap');
+
+
+* {
     text-align:center ;
+    margin: 0;
+    box-sizing: border-box ;
+
+}
+
+body{
+    background-image:linear-gradient(rgb(177, 31, 140),white
+    );
+    font-family: 'Nunito Sans', sans-serif;
+}
+h1{
+    margin-top: 50px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 2px solid green;
+    border-radius: 20px;
+   cursor: pointer;
+}
+.btn:hover{
+    background-color:mediumblue;
 }
 
 
 
-
-.input{
+.giris {
     margin-bottom: 20px;
+   
     width: 100px;
     height: 20px;
+}
+.label{
+margin-right: 10px;
+display: block; 
+
+}
+.far,.fas{
+    color: mediumseagreen;
+}
+textarea{
+    width: 200px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    border-radius: 10px;
+    
 }
